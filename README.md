@@ -1,2 +1,7 @@
 # C-O-D-E-S
-Repository for all my projects
+
+Hey, if you see this then I want to make it clear that **nobody** is given permission to use these files.
+
+
+*© 2018 XAVIER JOBIN ALL RIGHTS RESERVED*
+
