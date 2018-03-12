@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.nav {
+    padding: 0;
+    overflow: hidden;
+        
+    background-color: #2c3e509f;
+}
+
+.nav a {
+    margin: 0;
+    float: right;
+    color: #ecf0f1;
+
+    
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 2rem;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s; 
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+
+.nav .active {
+    border-bottom: 3px solid #5f27cd;
+}
+
+
+.nav a:not(.NewYork):hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.678);
+}
+
+
+
+.nav a.NewYork {
+    pointer-events: none;
+    padding-left: 3rem;
+    letter-spacing: 0.7rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100;
+}

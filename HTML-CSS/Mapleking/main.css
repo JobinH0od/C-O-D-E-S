@@ -1,0 +1,160 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./images/background.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    color: #ecf0f1;
+
+}
+
+@keyframes img-ani {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes products-ani {
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+
+
+@media screen and (max-width: 1020px) { 
+    .topnav, .textTitle, .pageTitle a{
+        float: none;
+        width: auto;
+    } 
+
+    h1{ font-size: 2em;}
+}
+
+
+.topnav {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c03a2b91;
+    
+    
+}
+  
+.topnav a {
+    margin: 0;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s;
+    font-size: 1.76rem;
+    transition-duration: 0.5s;
+    border-bottom: 3.6px solid rgba(255, 255, 255, 0);
+}
+  
+.topnav a:hover {
+    background-color: rgba(197, 197, 197, 0.164);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    
+}
+
+
+
+.topnav a.active {
+    background-color: #2c3e5052;
+    color: white;
+    border-bottom: 4px solid #2c3e50;
+}
+
+.topnav a.active:hover {
+    background-color: #2c3e509a;
+}
+
+
+
+
+
+.pageTitle {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:img-ani;
+    animation-duration: 1s;   
+    animation-timing-function: ease-in; 
+    
+    
+}
+
+.textTitle {
+    font-size: 450%;
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 4px #2c3e50;
+
+}
+
+.products-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 520px;
+}
+
+.news-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 520px;
+}
+
+.allProducts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 1.5em;
+    background-color: #ecf0f127;
+    overflow: auto; 
+    animation-name:products-ani;
+    animation-duration: 0.7s;   
+    animation-timing-function: ease-in; 
+}
+
+
+.tcp{
+    
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+
+
+.tca {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer (nothing under, unless needed..) */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2c3e503d;
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'ceveat', cursive;
+ }

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.nav {
+    border-bottom: 3px solid #ecf0f1;
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.nav a {
+    color: #ecf0f1;
+    font-size: 1.7rem;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Noto sans', sans-serif;
+    transition-duration: 1s;
+    -webkit-transition-duration: .35s;
+
+}
+
+.nav a:hover {
+    font-size: 1.5rem;
+}
+
+.nav a.active {
+    color:	rgba(253, 164, 0, 0.726);
+}
+
+
+.logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    animation: fadein 2s;
+}
+
+.imgcontainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 520px;
+
+}
+
+.worksimg {
+    padding: 30px;
+    width: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    animation: fadein 7s;
+}
+
+
+
+
+
+body.home {
+    background: url(./images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.tools {
+    background: url(./images/tools-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body.works {
+    background: url(./images/works-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
