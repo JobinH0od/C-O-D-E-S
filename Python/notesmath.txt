@@ -1,1 +1,48 @@
+<<--- Les formules d'aire latéral et d'aire total des solides --->>
+
+* = Multiplication
+/ = Division
+
+AL = Aire latéral
+AT = Aire total
+AB = Aire d'une base
+APO = Apothème
+π = Pi
+R = Rayon
+C = Circonférence
+π * R² = Aire d'un cercle
+2 * π * R = Circonférence d'un cercle
+AS = Aire d'une sphere
+V = Volume
+
+Pbase = Perimètre de la base
+H = Hauteur
+
+
+<--- Aire latéral et aire total des solides ---> (Égale à Cm²)
+
+-----Prismes & Cylindres
+----------AL = Pbase * H
+----------AT = AL + 2AB
+-----Pyramides
+----------AL = (Pbase * APO) / 2
+----------AT = AL + AB
+-----Pyramide
+----------AL = (Pbase * APO) / 2
+----------AT = AB + AL
+-----Cône droit
+----------AL = π * (R * APO) [πRA]
+----------AT = (π * R²) + AL [AB + AL]
+-----Sphere
+----------AS = 4 * (π * R²)
+
+
+<--- Volume des solides ---> (Égale à Cm³)
+
+-----Prismes droits et cylindres droits
+----------V = AB * H
+-----Pyramides droites et cône droits
+----------V = (AB * H) / 3
+-----Sphere
+----------V = (4 * π * R³) / 3
 
